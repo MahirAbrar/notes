@@ -1,0 +1,208 @@
+<!-- in vscode type '!' then enter to create boiler plate -->
+<!-- This exist because of emmet. doc.emmet.io/cheat-sheet/ for more information -->
+<!DOCTYPE html>
+<!-- html tag contains html code. It consist of a Head and a Body -->
+<html lang="en">
+<head>
+    <!-- encoding used for the symbols. Emojis are also in UTF-8 (FIT1047) -->
+    <!-- More information on MDN meta website. Use theh metadata for search
+    engine optimisation. -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Changes name at the bar -->
+    <title>ReadCode ♥</title>
+</head>
+
+<body>
+    <!-- Headings can be from 1 to 5, 5 being the smallest -->
+    <!-- Use <em> instead of <i> to italicise tag.
+        Use <strong> instead of <b> to bold tags-->
+    <table>
+        <tr>
+            <td>
+                <img src="./florian-olivo-4hbJ-eymZ1o-unsplash.jpg" alt="HTML image pictures from unsplash" width="20%" height="20%">
+            </td>
+            <td>
+                <h1>Notes for basic HTML</h1>
+            </td>
+        </tr>
+    </table>
+    <p>Original image is too big and HTML formatting for resizing is bad. Resize image in CSS for better results. Use cellspacing to resize only using HTML.</p>
+    <p>Alt text is used for search engine optimisation. &lt;width&gt; to adjust <strong>size</strong>. Using % is better than hardcoding size. img source can be a web address as well. For clean code, create a separate folder for images.</p>
+    <p><em>Read code</em> to understand the difference between &lt;i&gt; and &lt;em&gt; + <strong>&lt;b&gt;</strong> and <strong>&lt;strong&gt;</strong>.</p>
+    <p>Code separated using &lt;p&gt; and the line is created using &lt;hr&gt;.</p>
+    <hr />
+    <h3>Lists</h3>
+    <ul>
+        <li>
+            This is an unordered list (Bullets)
+            &lt;ul&gt; specifies if the list would be ordered or underorded, aka what type of list it would be.
+        </li>
+        <li>
+            Place the content of the list items in &lt;li&gt;
+        </li>
+    </ul>
+    <ol>
+        <li>Alternate is &lt;ol&gt;</li>
+        <li><a href="https://unicode.org/emoji/charts/full-emoji-list.html">More emojis 😀</a></li>
+        <li><a href="doc.emmet.io/cheat-sheet/">Emmet cheat sheet</a></li>
+    </ol>
+    <hr>
+
+    <table>
+        <tr>
+            <td>
+                &lt;TR&gt; represents the row
+            </td>
+            <td>
+                left to right ref
+            </td>
+            <td>
+                its complicated
+            </td>
+
+        </tr>
+        <tr>
+            <td>&lt;td&gt; represents the column.</td>
+            <td>Use tool from website instead</td>
+            <td>Like a table generator</td>
+        </tr>
+        <tr>
+            <td>There is also concept of </td>
+            <td>&lt;thead&gt; and &lt;th&gt;</td>
+            <td>Style table in CSS. Inline table styling is depricated</td>
+        </tr>
+    </table>
+    <hr>
+    <h2>Proper example of table</h2>
+    <table>
+        <thead>
+            <tr>    
+                <td>
+                    <strong>Skill</strong>
+                </td>
+                <td>
+                    <strong>Level</strong>
+                </td>
+            </tr>
+        </thead>
+        <tr>
+            <td>
+                Algorithm and Data Structures in Python.
+            </td>
+            <td>
+                ⭐⭐⭐
+            </td>
+        </tr>
+        <tr>
+            <td>
+                HTML5
+            </td>
+            <td>
+                ⭐⭐⭐
+            </td>
+        </tr>        <tr>
+            <td>
+                Mobile App Development in Java
+            </td>
+            <td>
+                ⭐⭐⭐⭐
+            </td>
+        </tr>        <tr>
+            <td>
+                CSS
+            </td>
+            <td>
+                ⭐⭐
+            </td>
+        </tr>        
+        <tr>
+            <td>
+                Bootstrap 4
+            </td>
+            <td>
+                ⭐⭐⭐⭐
+            </td>
+        </tr>
+        <tr>
+            <td>
+                System development lifecycle in Agile and Waterfall
+            </td>
+            <td>
+                ⭐⭐⭐⭐⭐
+            </td>
+        </tr>
+        <tr>
+            <td>
+                React js
+            </td>
+            <td>
+                ⭐⭐⭐
+            </td>
+        </tr>
+        <tr>
+            <td>
+                SQL development Oracle
+            </td>
+            <td>
+                ⭐⭐⭐⭐⭐
+            </td>
+        </tr>
+        <tr>
+            <td>
+                R
+            </td>
+            <td>
+                ⭐
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Matlab and Pandas
+            </td>
+            <td>
+                ⭐⭐⭐⭐
+            </td>
+        </tr>
+    </table>
+    <hr>
+    <h3>Forms</h3>
+    <p><em>Read the code to understand</em></p>
+
+    <!-- javaScript is required to make the codes work properly -->
+    <!-- mailto: is used to start the mail application and would send them mail to where you specify -->
+    <form action="">
+        <table>
+            <tr>
+                <td>
+                   <!-- If you press the label, it takes you to the textbox -->
+                    <label for="input_text_id">Your name:</label>
+                </td>
+                <td>
+                    <input type="text" name="" id="input_text_id"> 
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <br>
+                    <label for="input_password_id">Password:</label>
+                    <td>
+                        <input type="password" name="" id="input_password_id">
+                    </td>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <!-- Brings out a color picker -->
+                    <input type="color" name="" id="">
+                    <input type="checkbox" name="" id="">
+                    <!-- Does the magic with the form -->
+                    <input type="submit" value="">
+                </td>
+            </tr>
+        </table>
+
+    </form>
+</body>
+</html>
