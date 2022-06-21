@@ -1,0 +1,10 @@
+    /* color is used to change the color of all fonts/texts */
+    * {
+        color: #D6D5A8;
+        margin: 1%;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    /* classes start with . */
+    /* IDs start with # */

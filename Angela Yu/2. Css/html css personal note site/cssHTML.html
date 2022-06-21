@@ -1,27 +1,65 @@
-<!-- in vscode type '!' then enter to create boiler plate -->
-<!-- This exist because of emmet. doc.emmet.io/cheat-sheet/ for more information -->
 <!DOCTYPE html>
-<!-- html tag contains html code. It consist of a Head and a Body -->
 <html lang="en">
 <head>
-    <!-- encoding used for the symbols. Emojis are also in UTF-8 (FIT1047) -->
-    <!-- More information on MDN meta website. Use theh metadata for search
-    engine optimisation. -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Changes name at the bar -->
     <title>ReadCode ♥</title>
+
+    <!-- External style -->
+    <link rel="stylesheet" href="./styles.css" />
 </head>
 
-<body>
-    <!-- Headings can be from 1 to 5, 5 being the smallest -->
-    <!-- Use <em> instead of <i> to italicise tag.
-        Use <strong> instead of <b> to bold tags-->
+<!-- Internal style -->
+
+<style>
+     /* Same as code below */
+
+    /* body {
+        background-color: #51557E;
+    } */
+
+
+    
+    /* hr has default border styling of inset and that needs to be changed to be able to change the 
+    look of the horizontal line */
+    hr {
+        border-color: #D6D5A8;
+        border-style: none;
+
+        /* top style is used to only show the circles */
+        border-top-style: dotted;
+        /* border width makes hr bigger */
+        border-width: 5px;
+        width: 30%;
+
+        Position: relative;
+        Top: 50%;
+        Left: 50%;
+        Transform: translate(-50%, -50%);
+        Text-align: center;
+    }
+
+    #hack_image_id {
+        height: 20%;
+        min-width: 20%;
+        max-width: 30%;
+    }
+    table {
+        width: auto;
+    }
+
+</style>
+
+
+<!-- inline CSS. Requires the semicolon in the end as like external CSS. -->
+<!--  -->
+<body style="background-color: #51557E;">
     <table>
         <tr>
             <td>
-                <img src="./florian-olivo-4hbJ-eymZ1o-unsplash.jpg" alt="HTML image pictures from unsplash" width="20%" height="20%">
+                <img src="./florian-olivo-4hbJ-eymZ1o-unsplash.jpg" alt="HTML image pictures from unsplash" id="hack_image_id" >
             </td>
             <td>
                 <h1>Notes for basic HTML</h1>
@@ -48,7 +86,7 @@
         <li><a href="https://unicode.org/emoji/charts/full-emoji-list.html">More emojis 😀</a></li>
         <li><a href="doc.emmet.io/cheat-sheet/">Emmet cheat sheet</a></li>
     </ol>
-    <hr>
+    <hr />
 
     <table>
         <tr>
@@ -74,7 +112,7 @@
             <td>Style table in CSS. Inline table styling is depricated</td>
         </tr>
     </table>
-    <hr>
+    <hr />
     <h2>Proper example of table</h2>
     <table>
         <thead>
@@ -170,13 +208,10 @@
     <h3>Forms</h3>
     <p><em>Read the code to understand</em></p>
 
-    <!-- javaScript is required to make the codes work properly -->
-    <!-- mailto: is used to start the mail application and would send them mail to where you specify -->
     <form action="">
         <table>
             <tr>
                 <td>
-                   <!-- If you press the label, it takes you to the textbox -->
                     <label for="input_text_id">Your name:</label>
                 </td>
                 <td>
@@ -194,15 +229,12 @@
             </tr>
             <tr>
                 <td>
-                    <!-- Brings out a color picker -->
                     <input type="color" name="" id="">
                     <input type="checkbox" name="" id="">
-                    <!-- Does the magic with the form -->
                     <input type="submit" value="">
                 </td>
             </tr>
         </table>
-
     </form>
 </body>
 </html>
