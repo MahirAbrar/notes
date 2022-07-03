@@ -4,6 +4,10 @@ const bodyParser = require("body-parser")
 
 const app = express()
 
+// Converts whenever url is encoded
+app.use(bodyParser.urlencoded({extended: true}))
+
+// Handle post request by req.body.<name>
 
 app.get("/", function(request, response) {  
       // calculations can also be sent as response.send()

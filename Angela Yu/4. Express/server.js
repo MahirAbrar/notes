@@ -32,6 +32,7 @@ app.get("/calculate", function(req, res) {
 // Handles post request but something is wrong
 // app.post("/calculate", function(req, res) {
 //       res.send("ty")
+// console.log(res.body.num1)
 // })
 
 // any request that is made to port 3000 will be received by the application.
